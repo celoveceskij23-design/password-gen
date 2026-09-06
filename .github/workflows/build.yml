@@ -18,8 +18,7 @@ jobs:
       - name: Build APK with Flet
         uses: flet-dev/flet-build-action@v1
         with:
-          target: "main.py"
-          platform: "apk"
+          target: "apk"
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
